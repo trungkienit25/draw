@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="Logical_Network" name="So do Logic">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="group1" value="VÙNG MẠNG TỰ DO (Subnet: 192.168.1.0/24)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wifi_home" value="WiFi: haha 5g" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;" vertex="1" parent="group1">
+          <mxGeometry x="90" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pc_home" value="Máy tính/Điện thoại nhà" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="group1">
+          <mxGeometry x="85" y="140" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="group2" value="VÙNG MARKETING (Subnet: 192.168.88.0/24)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wifi_mkt" value="WiFi Marketing" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;" vertex="1" parent="group2">
+          <mxGeometry x="90" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="guest" value="Khách hàng (Hotspot)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="group2">
+          <mxGeometry x="85" y="140" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow" value="Cổng WAN MikroTik" style="endArrow=block;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;strokeWidth=2;" edge="1" parent="1" source="group1" target="group2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
